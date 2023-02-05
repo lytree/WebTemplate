@@ -8,8 +8,8 @@
     <IsPackable>false</IsPackable>
     <SpaRoot>ClientApp\</SpaRoot>
     <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
-    <SpaProxyServerUrl>http://localhost:3333</SpaProxyServerUrl>
-    <SpaProxyLaunchCommand>pnpm dev</SpaProxyLaunchCommand>
+    <SpaProxyServerUrl>http://localhost:9999</SpaProxyServerUrl>
+    <SpaProxyLaunchCommand>pnpm run dev</SpaProxyLaunchCommand>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
